@@ -1,3 +1,6 @@
+//Niaz Baharudeen
+//3207 Lab Section 004
+//3207 Lab Introduction: randchar() function file for converting a random int into a char
 #include <stdio.h>
 #include <stdlib.h>
 
