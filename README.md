@@ -1,4 +1,12 @@
-# 3207-Lab-Introduction
-In this lab, you will be learning about git and some of the features of git and GitHub. A part of the lab will be to clone this repository and and then make changes to the repository.
-The attached simple source file print_random.c is to be modified by you to include a function that implements the randchar() function.
-See the instructions in the GitHW1a file
+# 3207-Lab-Introductin
+Niaz Baharudeen
+Lab Section 004
+20 January 2023
+
+For this assignment, we utilize the rand() function to generate a number which we use to generate a random alphabetic character. This is done by generating a random
+number in the range of 65 to 90. This corresponds to the decimal values of the alphabetic characters on the ASCII table. We then cast the returned integer to a char
+to covert it to a character.
+
+The function is kept in its own file, random.c, and has its own header file, random.h. That header is referenced in the preprocessor directives of the main program.
+The function file is compiled separately, we then link its output file with the compilation of the main program to be able to use the function and thus generate the
+random characters.
